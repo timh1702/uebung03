@@ -1,7 +1,7 @@
 package ueb03;
 
-public interface Stack {
-	void push(char c);
-	char pop();
-	int size();
+public interface Stack<T> {
+	void push(T c);
+	T pop();
+	int size(); 
 }
